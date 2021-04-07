@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+@media (max-width: 990px) {
+  h1.heading {
+    max-width: 70%!important;
+    padding-left: 100px!important;
+  }
+}
+body {
+    background-image: url('../img/bg.jpg');
+}
+div > h1 {
+   color: #09b3bf;
+   font-family: 'Ubuntu', sans-serif;
+}
+body > div > div > ol > li {
+    margin: 0 5px;
+}
+div.container-image > img {
+    width: 100%;
+}
+.articles-row {
+  color: red;
+}
+.articles-row a {
+  color: red;
+}
